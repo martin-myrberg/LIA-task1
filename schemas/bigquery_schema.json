@@ -1,0 +1,30 @@
+{
+    "businessUnitId": "1",
+    "reconciliationId": "12345",
+    "reconciliationType": "type1",
+    "workstationId": "ws1",
+    "operatorId": "op1",
+    "timestamp": "2024-02-19T10:00:00",
+    "userId": "user1",
+    "tenders": [
+      {
+        "tenderId": "1",
+        "currencyId": "USD",
+        "initialBalance": 1000,
+        "expectedAmount": 1050,
+        "actualAmount": 1000,
+        "deviationAmount": 50,
+        "expectedQuantity": 10,
+        "actualQuantity": 10,
+        "deviationQuantity": 0
+      }
+    ],
+    "transactionTenderDates": [
+      {
+        "tenderId": "1",
+        "dateValue": "2024-02-19",
+        "amount": 100.5
+      }
+    ]
+  }
+  
